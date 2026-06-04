@@ -1,13 +1,19 @@
-"use client";
-import dynamic from "next/dynamic";
+// "use client";
+// import dynamic from "next/dynamic";
+
+// export default function Payment() {
+//   const PaymentLayout = dynamic(() => import("@/myComponents/PaymentLayout"), {
+//     ssr: false,
+//   });
+//   return (
+//     <div>
+//       <PaymentLayout />
+//     </div>
+//   );
+// }
+
+import React from "react";
 
 export default function Payment() {
-  const PaymentLayout = dynamic(() => import("@/myComponents/PaymentLayout"), {
-    ssr: false,
-  });
-  return (
-    <div>
-      <PaymentLayout />
-    </div>
-  );
+  return <div>Payment</div>;
 }
